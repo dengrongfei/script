@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+; Hide IDLE context menu entries
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.py\shell\Edit with IDLE]
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.pyw\shell\Edit with IDLE]
+"LegacyDisable"=""
+
+[HKEY_CURRENT_USER\Software\Classes\Python.CompiledFile\shell\Edit with IDLE]
+"LegacyDisable"=""
+
+[HKEY_CURRENT_USER\Software\Classes\Python.File\Shell\Edit with IDLE]
+"LegacyDisable"=""
+
+[HKEY_CURRENT_USER\Software\Classes\Python.File\Shell\editwithidle]
+"LegacyDisable"=""
